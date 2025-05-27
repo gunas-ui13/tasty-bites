@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #f8b400;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #f85a3e;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+form {
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #f85a3e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d9432b;
+}
